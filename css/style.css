@@ -9,7 +9,7 @@ body{
 
 /* Header Starts*/
 header{
-    background-color:teal;
+    background-color:grey;
 }
 #logo{
     margin-left: 40px;
@@ -17,7 +17,7 @@ header{
     height: 6em;
     object-fit: cover;
    
-    border: 10px solid gray;
+    border: 10px solid darkgray;
     border-radius: 45%;
    }
    .navigation{
@@ -29,6 +29,7 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     margin-left: 40px;
+    padding: 2px;
 }
 .navigation a{
     text-decoration: none;
