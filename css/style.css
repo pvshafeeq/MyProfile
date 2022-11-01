@@ -9,13 +9,9 @@ body{
 
 /* Header Starts*/
 header{
-    background-color: black;
+    background-color:teal;
 }
 #logo{
-    /* margin-left: 40px;
-    height: 100px;
-    width: auto; */
-
     margin-left: 40px;
     width: 6em;
     height: 6em;
@@ -26,8 +22,13 @@ header{
    }
    .navigation{
     float:right;
-    margin-top: 40px;
+    margin-top: -90px;
     margin-right: 40px;
+}
+.nameheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 40px;
 }
 .navigation a{
     text-decoration: none;
@@ -77,18 +78,17 @@ aside li{
 /* Course Container */
 .container {
     margin-top: 6%;
-    margin-left: 300px;
+    margin-left: 450px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container div{
-    align-items: center;
-    float: left;
+    float:left;
     width: 20%;
     border: 2px solid white;
     height: 9em;
     background-color: honeydew;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
 }
 
@@ -97,7 +97,7 @@ aside li{
 }
 
 .container p {
-    text-align: justify;
+    text-align: center;
     padding-top: 5px;
 }
 
@@ -106,18 +106,14 @@ aside li{
     text-decoration: none;
 }
 
-/* table{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 40px;
-    float: left;
-    border: 2px solid white;
-    padding: 10px;
-} */
-
 table, th, td {
-    /* margin-top: 36%; */
     border: 1px solid white;border-collapse: collapse;padding: 10px;
+}
+
+.getintouch{
+    margin-top: 5%;
+    margin-left: 35%;
+    float:left;
 }
 
 /* Footer */
