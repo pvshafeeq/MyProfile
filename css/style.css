@@ -111,6 +111,18 @@ table, th, td {
     border: 1px solid white;border-collapse: collapse;padding: 10px;
 }
 
+table a{
+    color: white;
+    text-decoration: none;
+}
+
+table a:hover{
+    background-color: teal;
+    color:black;
+    transition: 0.5 ease-in-out;
+}
+
+
 .getintouch{
     margin-top: 5%;
     margin-left: 35%;
