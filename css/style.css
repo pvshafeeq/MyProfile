@@ -12,9 +12,17 @@ header{
     background-color: black;
 }
 #logo{
-    margin-left: 40px;
+    /* margin-left: 40px;
     height: 100px;
-    width: auto;
+    width: auto; */
+
+    margin-left: 40px;
+    width: 6em;
+    height: 6em;
+    object-fit: cover;
+   
+    border: 10px solid gray;
+    border-radius: 45%;
    }
    .navigation{
     float:right;
@@ -68,17 +76,19 @@ aside li{
 
 /* Course Container */
 .container {
-    margin-top: 26%;
-    margin-left: 60px;
+    margin-top: 6%;
+    margin-left: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container div{
+    align-items: center;
     float: left;
-    width: 22%;
+    width: 20%;
     border: 2px solid white;
-    height: 12em;
-    background-color: lightgray;
-    margin-left: 5px;
+    height: 9em;
+    background-color: honeydew;
+    margin-left: 10px;
     padding: 10px;
 }
 
@@ -94,6 +104,20 @@ aside li{
 .container a {
     color: red;
     text-decoration: none;
+}
+
+/* table{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    float: left;
+    border: 2px solid white;
+    padding: 10px;
+} */
+
+table, th, td {
+    /* margin-top: 36%; */
+    border: 1px solid white;border-collapse: collapse;padding: 10px;
 }
 
 /* Footer */
