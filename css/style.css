@@ -7,7 +7,7 @@ body{
     background-size: cover;
 }
 
-/* Header Starts*/
+/* Header */
 header{
     background-color:grey;
 }
@@ -76,10 +76,10 @@ aside li{
     list-style-type: square;
 }
 
-/* Course Container */
+/* Container */
 .container {
-    margin-top: 6%;
-    margin-left: 450px;
+    margin-top: 5%;
+    margin-left: 150px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -87,7 +87,7 @@ aside li{
     float:left;
     width: 20%;
     border: 2px solid white;
-    height: 9em;
+    height: 8em;
     background-color: honeydew;
     margin-left: 20px;
     padding: 10px;
@@ -107,6 +107,7 @@ aside li{
     text-decoration: none;
 }
 
+/* Table */
 table, th, td {
     border: 1px solid white;border-collapse: collapse;padding: 10px;
 }
@@ -122,10 +123,65 @@ table a:hover{
     transition: 0.5 ease-in-out;
 }
 
+/* Contact */
+.contact_me{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;  
+    overflow: hidden;  
+    margin-top: 40px;
+    margin-right: 100px;
+    padding: 40px;  
+    background: gray;  
+    border-radius: 15px ;  
+    float:right;   
+}
+
+.contact_me h3{
+    text-align: center;
+}
+
+.contact_me label{
+    color: #08ffd1;  
+    font-size: 14px;  
+    font-weight: bold;
+}
+
+.contact_me button{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: teal;  
+  font-weight: bold;
+}
+
+.contact_me button:hover {
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    transition: 0.5 ease-in-out;
+}
+
+.textbx{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+
+.contact_me textarea{
+    width: 300px; 
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
 
 .getintouch{
-    margin-top: 5%;
-    margin-left: 35%;
+    margin-top: 2%;
+    margin-left: 12%;
     float:left;
 }
 
